@@ -65,6 +65,7 @@ nav img{
     padding: 3px 4px;
     background-color: #0061ff;
     color: white;
+    display: inline-block;
 }
 .prova{
     display: inline-block;
@@ -74,7 +75,7 @@ nav img{
 
 .jumbotron{
     padding-top:  40px;
-    padding: 60px 50px;
+    padding: 60px 80px;
     background-color: #b4d0e7;
     position: relative;
 }
@@ -83,7 +84,9 @@ nav img{
     font-size: 85px;
 }
 
-
+#arrow a{
+    color: black;
+}
 
 .jumbo-text{
     margin-top: 40px;
@@ -104,7 +107,63 @@ nav img{
 
 .jumbo-img{
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 350px;
     
 }
+
+.prezzi{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.prezzi h2{
+    font-size: 60px;
+}
+
+#abbonamento{
+    font-size: 35px;
+}
+
+.casella{
+    border: 1px solid black;
+    width: 25%;
+    
+}
+
+.icona{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.casella h4{
+    font-size: 30px;
+}
+
+.casella-padd{
+    margin: 0px 20px;
+}
+
+.casella-padd *{
+    
+    margin-bottom: 10px;
+}
+
+.sotto-costo{
+    color: gray;
+}
+
+.simbolo{
+    margin: 40px 0px;
+    list-style-type: none;
+}
+
+.btn-lista{
+    font-size: 20px;
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.riga{
+    margin-right: 200px;
+}
+
