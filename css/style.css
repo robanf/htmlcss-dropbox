@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+nav{
+    padding: 10px 0px;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    position: fixed;
+    display: inline-block;
+}
+
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.ul-left{
+    display: inline-block;
+    float: left;
+    
+    width: 40%;
+}
+
+.ul-left li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+    
+}
+
+.ul-right{
+    display: inline-block;
+    float: right;
+    width: 30%;
+}
+
+.ul-right li{
+    display: inline-block;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+
+nav img{
+    height: auto;
+    width: 129px;
+    
+}
