@@ -164,6 +164,16 @@ nav img{
 }
 
 .riga{
-    margin-right: 200px;
+    margin: 30px 200px;
+    margin-left: 0px;
+    color: rgb(167, 166, 166);
 }
 
+.casella-padd h5{
+    font-size: 20px;
+}
+
+.lista{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
