@@ -6,13 +6,14 @@
 }
 
 nav{
-    padding: 10px 0px;
+    padding: 20px 0px;
     background-color:white;
-    height: 50px;
+    height: 70px;
     width: 100%;
     font-size: large;
     position: fixed;
     display: inline-block;
+    z-index: 3;
 }
 
 nav::after{
@@ -52,5 +53,54 @@ nav::after{
 nav img{
     height: auto;
     width: 129px;
+    
+}
+
+.btn{
+    border: 2px solid #0061ff;
+    padding: 3px 4px;
+    background-color: #0061ff;
+    color: white;
+}
+.prova{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.jumbotron{
+    padding-top:  40px;
+    padding: 60px 50px;
+    background-color: #b4d0e7;
+    position: relative;
+}
+
+.jumbotron h1{
+    font-size: 85px;
+}
+
+
+
+.jumbo-text{
+    margin-top: 45px;
+    width: 30%;
+    font-size: 25px;
+}
+
+#min-text{
+    font-size: medium;
+    margin-top: 5px;
+}
+
+#arrow{
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+
+.jumbo-img{
+    position: absolute;
+    right: 0px;
+    top: 300px;
     
 }
