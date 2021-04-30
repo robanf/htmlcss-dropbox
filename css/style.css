@@ -5,6 +5,13 @@
 
 }
 
+.test{
+    margin-left: 2px;
+    width: 250px;
+    display: inline-block;
+    vertical-align:top;
+}
+
 body{
     font-family: 'Oswald', sans-serif;
 }
