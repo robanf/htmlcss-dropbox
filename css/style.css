@@ -114,7 +114,10 @@ nav img{
     
 }
 
-/* inizio body */
+/* inizio main */
+main{
+    margin-bottom: 100px;
+}
 
 /* zona abbonamenti */
 .prezzi{
@@ -316,4 +319,73 @@ nav img{
 }
 
 /* inizio footer */
+.first-footer{
+    margin-left: 250px;
+}
 
+.first-footer h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.first-footer a{
+    margin-bottom: 20px;
+}
+
+.aziende{
+    margin-top: 20px;
+}
+
+.aziende::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.zona{
+    float: left;
+    width: 33%;
+    height: 400px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.zona::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.quadrato{
+    width:50%;
+    height: 50%;
+    display: inline-block;
+    float: left;
+    
+}
+
+.quadrato-img{
+    filter: invert(1);
+    width: 50%;
+    height: auto;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+}
+
+.verde{
+    background-color: green;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.azzurro{
+    background-color: cornflowerblue;
+}
+
+.fluored{
+    background-color: red;
+}
