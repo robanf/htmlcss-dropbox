@@ -183,3 +183,57 @@ nav img{
     list-style-type: none;
     margin-bottom: 50px;
 }
+
+.cln{
+    border: 1px solid black;
+    margin:50px 250px;
+}
+
+.cln *{
+    margin: 16px 0px;
+}
+
+.cln .icona{
+    font-size: 20px;
+}
+
+.cln h3{
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 600px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.intermezzo{
+    margin: 50px 250px;
+}
+
+.intermezzo img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intermezzo-dx{
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+.intermezzo-dx h3{
+    display: inline-block;
+    font-size: 40px;
+}
+ .intermezzo-dx div{
+     font-size: 20px;
+ }
+
+.white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
