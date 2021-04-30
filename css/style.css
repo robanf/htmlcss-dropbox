@@ -123,12 +123,18 @@ nav img{
 
 #abbonamento{
     font-size: 35px;
+    margin-bottom: 30px;
+    display: block;
 }
 
 .casella{
     border: 1px solid black;
     width: 25%;
-    
+    display: inline-block;
+}
+
+.n2{
+    margin: 0px 50px;
 }
 
 .icona{
