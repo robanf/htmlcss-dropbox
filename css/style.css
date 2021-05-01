@@ -363,6 +363,10 @@ main{
     clear: both;
 }
 
+.ct{
+    background-color: #f5f5f5;
+}
+
 .quadrato{
     width:50%;
     height: 50%;
@@ -371,7 +375,7 @@ main{
     
 }
 
-.quadrato-img{
+.quadrato img{
     filter: invert(1);
     width: 50%;
     height: auto;
@@ -396,3 +400,18 @@ main{
 .fluored{
     background-color: red;
 }
+
+.clear-red{
+    background-color: #d5001f;
+}
+
+.ciano{
+    background-color: #b4d0e7;
+}
+ .blu{
+     background-color: #0d2481;
+ }
+.giallo{
+    background-color: #ffd830;
+}
+
