@@ -519,6 +519,7 @@ main{
     background-color: black;
     color: white;
     padding-left: 200px;
+    position: relative;
 }
 
 .finale::after{
@@ -531,7 +532,7 @@ main{
 .link-utili{
     float: left;
     margin-top: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin-left: 100px;
     list-style: none;
 }
@@ -543,4 +544,11 @@ main{
 
 .link-utili li{
     font-size: 16px;
+}
+
+.italiano{
+    position: absolute;
+    bottom: 90px;
+    left: 300px;
+    border-top: 2px solid white;
 }
