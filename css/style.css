@@ -84,7 +84,11 @@ nav img{
     padding: 5px 10px;
     border: 1px solid lightslategrey;
     border-radius: 40px;
-    background-color: white;
+    background-color: #0d2481;
+}
+
+.chat i{
+    filter: invert(1);
 }
 
 .supp:hover .bonus{
