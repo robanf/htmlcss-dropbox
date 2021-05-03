@@ -387,7 +387,7 @@ main{
     width: 80%;
     display: inline-block;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding-left: 50px;
     padding-right:50px;
 }
@@ -471,4 +471,76 @@ main{
     margin-top: 100px;
     vertical-align: top;
     padding: 5px 20px;
+}
+
+.domande-frequenti{
+    margin: 100px 100px;
+}
+
+.domande-frequenti h2{
+    font-size: 40px;
+}
+
+.faq{
+    margin: 20px 0px;
+}
+
+.domanda{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.arrow{
+    display: inline-block;
+    margin-left: 700px;
+}
+
+.risposta{
+    display: none;
+    color: lightslategray;
+}
+
+.faq:hover .risposta{
+    display: block;
+}
+
+.faq:hover .arrow{
+    transform: rotate(180deg);
+}
+
+.gray{
+    color: #e1e1e3;
+    border: 1px solid #e1e1e3;
+}
+
+
+.finale{
+    background-color: black;
+    color: white;
+    padding-left: 200px;
+}
+
+.finale::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.link-utili{
+    float: left;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.link-utili strong{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.link-utili li{
+    font-size: 16px;
 }
