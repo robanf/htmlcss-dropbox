@@ -88,6 +88,7 @@ nav img{
     border: 1px solid lightslategrey;
     border-radius: 40px;
     background-color: #0d2481;
+    z-index: 3;
 }
 
 .chat i{
