@@ -40,7 +40,6 @@ nav::after{
 .ul-left{
     display: inline-block;
     float: left;
-    
     width: 40%;
 }
 
@@ -71,9 +70,13 @@ nav img{
 
 .bonus{
     display: none;
-    margin-top: 10px;
-    
+    padding-top: 10px;
     position: absolute;
+   
+}
+.supp:hover .bonus{
+    display: block;
+    background-color: white;
 }
 
 .chat{
